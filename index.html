@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/font.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="icon" href="assets/images/favicon.ico">
+  <title>Morent</title>
+</head>
+
+<body>
+  <header class="nav__bar">
+    <nav class="nav container">
+      <div class="search__bar">
+        <p class="morent__logo">MORENT</p>
+        <form class="nav__form">
+          <div class="nav__toggler">
+            <img class="icon" src="/assets/images/search.svg" alt="search" />
+            <img src="/assets/images/xmark.svg" alt="x" class="icon second" />
+          </div>
+          <input type="text" class="nav__serach-bar" placeholder="Search something here" />
+        </form>
+      </div>
+      <ul class="nav__list">
+        <li><img src="/assets/images/like.svg" alt="fav " /></li>
+        <li><img src="/assets/images/notif.svg" alt="notif" /></li>
+        <li>
+          <img class="nav__user" src="/assets/images/user.jpg" alt="user" />
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero block container">
+    <div class="hero__text">
+      <h1>Rent your Dream Car <br />Around the World</h1>
+      <p>
+        We provide the best car options, with premium customer services at a
+        competitive price
+      </p>
+    </div>
+    <img src="/assets/images/hero.c422078b650affce4d14.png" alt="hero image car" />
+    <div class="hero__search-field">
+      <div class="hero__search-input">
+        <p>Car type</p>
+        <input type="text" placeholder="type" />
+      </div>
+      <div class="hero__search-input">
+        <p>Location</p>
+        <input type="text" placeholder="eg. 221B Baker Street" />
+      </div>
+      <button class="btn">Search</button>
+    </div>
+  </section>
+  <section class="popular container block">
+    <div class="heading">
+      <p>Popular Cars</p>
+      <a href="#">View All</a>
+    </div>
+    <div class="catalogs">
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>Koemigsegg</h3>
+            <p>Sport</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="/assets/images/car_0.3d32b6b2cef2f68f936a.png" alt="" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>90L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Automatic</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>2People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $99.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>Nossan GT-R</h3>
+            <p>Sport</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr2.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>80L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Automatic</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>2People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $80.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>Rolls-Roys</h3>
+            <p>Sedan</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr3.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>70L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Manual</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>4People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $96.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>All New Rush</h3>
+            <p>Suv</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr4.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>70L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Manual</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>6People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $72 .00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="recommend container block" data-aos="fade-up" data-aos-delay="300">
+    <div class=" heading">
+    <p>Recommended</p>
+    </div>
+    <div class="suggested__catalogs">
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>Koemigsegg</h3>
+            <p>Sport</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="/assets/images/car_0.3d32b6b2cef2f68f936a.png" alt="" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>90L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Automatic</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>2People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $99.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>Nossan GT-R</h3>
+            <p>Sport</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr2.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>80L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Automatic</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>2People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $80.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>Rolls-Roys</h3>
+            <p>Sedan</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr3.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>70L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Manual</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>4People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $96.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>All New Rush</h3>
+            <p>Suv</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr4.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>70L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Manual</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>6People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $72.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>CR-V</h3>
+            <p>Suv</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr5.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>80L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Manual</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>6People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $80.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>All New Terios</h3>
+            <p>Suv</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr6.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>90L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Manual</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>6People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $74.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>Koemigsegg</h3>
+            <p>Sport</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="/assets/images/car_0.3d32b6b2cef2f68f936a.png" alt="" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>90L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Automatic</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>2People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $99.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>Nossan GT-R</h3>
+            <p>Sport</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr2.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>80L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Automatic</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>2People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $80.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>Rolls-Roys</h3>
+            <p>Sedan</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr3.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>70L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Manual</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>4People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $96.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="catalog__heading">
+          <div class="catalog__header">
+            <h3>All New Rush</h3>
+            <p>Suv</p>
+          </div>
+          <img class="icon" src="assets/images/like.svg" alt="" />
+        </div>
+        <div class="catalog__img">
+          <img src="assets/images/cr4.png" alt="car" />
+        </div>
+        <div class="catalog__description">
+          <div class="catalog__description-section">
+            <img src="assets/images/benzin.svg" alt="" />
+            <p>70L</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/dande.svg" alt="" />
+            <p>Manual</p>
+          </div>
+          <div class="catalog__description-section">
+            <img src="assets/images/people.svg" alt="" />
+            <p>6People</p>
+          </div>
+        </div>
+        <div class="catalog__price">
+          <p>
+            $72.00/
+            <span>day</span>
+          </p>
+          <button class="btn">Rent now</button>
+        </div>
+      </div>
+    </div>
+    <div class="view">
+      <button class="btn">View more</button>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="footer container block">
+      <div class="footer-items special-footer">
+        <h2 class="morent__logo">MORENT</h2>
+        <p>Our vision is to provide convenience
+          and help increase your sales business.</p>
+      </div>
+      <div class="footer-items">
+        <h6>About</h6>
+        <a href="#">Howitworks</a>
+        <a href="#">Featured</a>
+        <a href="#">Partnership</a>
+        <a href="#">Bussiness Relation</a>
+      </div>
+      <div class="footer-items">
+        <h6>Community</h6>
+        <a href="#">Events</a>
+        <a href="#">Blog</a>
+        <a href="#">Podcast</a>
+        <a href="#">Invite a friend</a>
+      </div>
+      <div class="footer-items">
+        <h6>Socials</h6>
+        <a href="#">Discord</a>
+        <a href="#">Intagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+      </div>
+    </div>
+  </footer>
+  <section class="me-section">
+    <div class="iamcool container block">
+      <a href="https://github.com/Alinajafi10" target="_blank">
+        <p>This site is made by Seyed Ali Najafi</p>
+      </a>
+    </div>
+  </section>
+  <script src="js/app.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
